@@ -4,5 +4,5 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 
 I implement all puzzles using the following languages:
 
-- [JavaScript](./javascript/README.md)
-- [Python](./python/README.md)
+- [JavaScript](./javascript)
+- [Python](./python)
