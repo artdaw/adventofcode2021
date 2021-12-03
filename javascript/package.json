@@ -1,0 +1,34 @@
+{
+  "name": "adventofcode2021",
+  "version": "1.0.0",
+  "description": "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that is solved in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix *.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "check": "npm run lint && npm run test"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/artdaw/adventofcode2021.git"
+  },
+  "author": "Gleb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdaw/adventofcode2021/issues"
+  },
+  "homepage": "https://github.com/artdaw/adventofcode2021#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.3"
+  }
+}
